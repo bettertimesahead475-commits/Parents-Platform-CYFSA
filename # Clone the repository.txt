@@ -1,0 +1,14 @@
+# Clone the repository
+git clone <your-repo-url>
+cd ontario-cps-analyzer
+# Install dependencies
+cd backend && npm install
+cd ../frontend && npm install
+# Set up environment variables
+cp .env.example .env
+# Add your OpenAI API key and other configs
+# Run with Docker
+docker-compose up -d
+# Or run individually
+# Backend: cd backend && npm run dev
+# Frontend: cd frontend && npm start

@@ -1,0 +1,16 @@
+ontario-cps-analyzer/
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   └── utils/
+├── backend/
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   └── utils/
+├── database/
+└── docker-compose.yml

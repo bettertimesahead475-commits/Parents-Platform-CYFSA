@@ -1,0 +1,8 @@
+# Build and push Docker images
+docker build -t ontario-cps-backend ./backend
+docker build -t ontario-cps-frontend ./frontend
+
+# Deploy to AWS ECS or EC2
+# Use AWS RDS for MongoDB in production
+# Set up CloudFront for static assets
+# Configure SSL certificates
